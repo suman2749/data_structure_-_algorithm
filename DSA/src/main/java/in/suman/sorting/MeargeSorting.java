@@ -79,6 +79,6 @@ public class MeargeSorting {
         for (int num : data) {
             System.out.print(num + " ");
         }
-        System.out.println();
+        System.out.println(" ");
     }
 }
