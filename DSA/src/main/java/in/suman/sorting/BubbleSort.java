@@ -1,7 +1,11 @@
 package in.suman.sorting;
 
 public class BubbleSort {
-
+    /**
+     * Sorts an array using the Bubble Sort algorithm.
+     * This method repeatedly steps through the list, compares adjacent elements,
+     * and swaps them if they are in the wrong order. The pass through the
+     * */
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
         boolean swapped; // Flag to optimize: if no swaps occur in a pass, the array is sorted.
