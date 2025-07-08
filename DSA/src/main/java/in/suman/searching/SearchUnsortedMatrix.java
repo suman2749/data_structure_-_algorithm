@@ -18,5 +18,15 @@ public class SearchUnsortedMatrix {
     }
     public static void main(String[] args) {
 
+        SearchUnsortedMatrix search = new SearchUnsortedMatrix();
+        int[][] matrix = {
+            {1, 3, 5, 7},
+            {10, 11, 16, 20},
+            {23, 30, 34, 60},
+            {60, 61, 62, 63}
+        };
+        int target = 3;
+        boolean found = search.searchMatrix(matrix, target);
+        System.out.println("Target " + target + " found: " + found);
     }
 }
